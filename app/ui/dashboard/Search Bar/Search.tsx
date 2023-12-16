@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Search = () => {
   return (
-    <div className="w-full  bg-white  flex justify-between px-3 py-1 rounded-lg shadow-md">
+    <div className="w-full  bg-white sticky top-0 z-50 flex justify-between px-3 py-1 rounded-lg shadow-md">
       <div className=" items-center gap-4 p-2 flex">
         <HiOutlineSearch size="1.5em" />
         <p>Search</p>
