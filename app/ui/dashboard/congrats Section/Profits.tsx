@@ -4,7 +4,7 @@ import { SiCakephp } from "react-icons/si";
 import { FaArrowUp } from "react-icons/fa";
 const Profits = () => {
   return (
-    <section className="p-4 [&>*]:p-1.5">
+    <section className="p-4 [&>*]:p-1.5 md:m-0 m-4">
       <div className="flex items-center justify-between">
         <div className="bg-[#e9f9df] text-[#70db3d]  p-2  rounded-md">
           <SiCakephp size="2em" />

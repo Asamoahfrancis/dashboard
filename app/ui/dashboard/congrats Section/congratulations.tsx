@@ -17,7 +17,7 @@ const Congratulations = () => {
           </p>
           <p>Check your new raising bagdge in your profile</p>
         </div>
-        <button className=" mt-4 w-1/2 bg-[#efedff] text-[#7479d6] rounded-md px-2 py-1">
+        <button className=" mt-4 w-1/2 bg-[#efedff] text-[#7479d6]  rounded-md  md:px-2 py-1">
           VIEW BADGES
         </button>
       </section>

@@ -7,7 +7,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import Example from "../Charts/Company growth/Growth";
 const Companygrowth = () => {
   return (
-    <div className="col-start-1 col-end-9 row-start-1 shadow-md grid grid-cols-10 row-end-3 bg-white   rounded-lg">
+    <div className="col-start-1 col-end-9 row-start-1 shadow-md md:grid grid-cols-10 row-end-3 bg-white   rounded-lg">
       <section className="col-span-6  p-4">
         <section className="flex justify-between pb-4">
           <p className="text-lg text-[#8f9390]">Total Revenue</p>
@@ -17,7 +17,7 @@ const Companygrowth = () => {
           <PositivenNegative />
         </section>
       </section>
-      <section className="col-span-4 border-l-[1px] flex flex-col">
+      <section className="col-span-4 border-l-[1px] mt-4 mb-4 md:m-0 flex flex-col">
         <div className="grid place-items-center mt-4">
           <select className=" bg-[#f5f4f9] rounded-md px-6 py-2">
             <option value="">2023</option>
@@ -25,7 +25,7 @@ const Companygrowth = () => {
           </select>
         </div>
         <div className="mb-auto relative ">
-          <section className="w-full h-[230px] ">
+          <section className="w-full h-[230px]  m-y-4 md:m-0 ">
             <Example />
           </section>
         </div>
